@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1CEE8F29C8CB250078AA0C /* RealNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CEE8E29C8CB250078AA0C /* RealNetworkTests.swift */; };
+		0D1CEE9129C8CB300078AA0C /* MockNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CEE9029C8CB300078AA0C /* MockNetworkTests.swift */; };
+		0D1CEE9329C8CB4E0078AA0C /* MockNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CEE9229C8CB4E0078AA0C /* MockNetworkController.swift */; };
+		0D42C16E29C886B100601E8A /* _0230320_FelipeGomezMontoya_NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C16D29C886B100601E8A /* _0230320_FelipeGomezMontoya_NYCSchoolsApp.swift */; };
+		0D42C17229C886B300601E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D42C17129C886B300601E8A /* Assets.xcassets */; };
+		0D42C17529C886B300601E8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D42C17429C886B300601E8A /* Preview Assets.xcassets */; };
+		0D42C17D29C8872400601E8A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0D42C17C29C8872400601E8A /* Alamofire */; };
+		0D42C18129C8878100601E8A /* NavigationRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C18029C8878100601E8A /* NavigationRootView.swift */; };
+		0D42C18929C888F000601E8A /* MasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C18829C888F000601E8A /* MasterViewModel.swift */; };
+		0D42C19329C8930900601E8A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C19229C8930900601E8A /* LoadingView.swift */; };
+		0D42C19529C8950200601E8A /* SchoolFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C19429C8950200601E8A /* SchoolFormatter.swift */; };
+		0D42C19729C89B4A00601E8A /* TestScoreFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C19629C89B4A00601E8A /* TestScoreFormatter.swift */; };
+		0D42C1A329C8AD7000601E8A /* NYCTestScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C19F29C8AD7000601E8A /* NYCTestScore.swift */; };
+		0D42C1A429C8AD7000601E8A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C1A029C8AD7000601E8A /* NetworkController.swift */; };
+		0D42C1A529C8AD7000601E8A /* RetryInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C1A129C8AD7000601E8A /* RetryInterceptor.swift */; };
+		0D42C1A629C8AD7000601E8A /* NYCSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C1A229C8AD7000601E8A /* NYCSchool.swift */; };
+		0D42C1AD29C8AD9300601E8A /* TestScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C1A829C8AD9300601E8A /* TestScoreView.swift */; };
+		0D42C1AE29C8AD9300601E8A /* TestScoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C1A929C8AD9300601E8A /* TestScoresViewModel.swift */; };
+		0D42C1AF29C8AD9300601E8A /* SchoolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C1AB29C8AD9300601E8A /* SchoolsView.swift */; };
+		0D42C1B029C8AD9300601E8A /* SchoolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D42C1AC29C8AD9300601E8A /* SchoolsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D1CEE8929C8CB070078AA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D42C16229C886B000601E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D42C16929C886B100601E8A;
+			remoteInfo = "20230320-FelipeGomezMontoya-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D1CEE8529C8CB070078AA0C /* 20230320-FelipeGomezMontoya-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230320-FelipeGomezMontoya-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1CEE8E29C8CB250078AA0C /* RealNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNetworkTests.swift; sourceTree = "<group>"; };
+		0D1CEE9029C8CB300078AA0C /* MockNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkTests.swift; sourceTree = "<group>"; };
+		0D1CEE9229C8CB4E0078AA0C /* MockNetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkController.swift; sourceTree = "<group>"; };
+		0D42C16A29C886B100601E8A /* 20230320-FelipeGomezMontoya-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230320-FelipeGomezMontoya-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D42C16D29C886B100601E8A /* _0230320_FelipeGomezMontoya_NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230320_FelipeGomezMontoya_NYCSchoolsApp.swift; sourceTree = "<group>"; };
+		0D42C17129C886B300601E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D42C17429C886B300601E8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D42C18029C8878100601E8A /* NavigationRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRootView.swift; sourceTree = "<group>"; };
+		0D42C18829C888F000601E8A /* MasterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewModel.swift; sourceTree = "<group>"; };
+		0D42C19229C8930900601E8A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0D42C19429C8950200601E8A /* SchoolFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolFormatter.swift; sourceTree = "<group>"; };
+		0D42C19629C89B4A00601E8A /* TestScoreFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScoreFormatter.swift; sourceTree = "<group>"; };
+		0D42C19F29C8AD7000601E8A /* NYCTestScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYCTestScore.swift; sourceTree = "<group>"; };
+		0D42C1A029C8AD7000601E8A /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		0D42C1A129C8AD7000601E8A /* RetryInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryInterceptor.swift; sourceTree = "<group>"; };
+		0D42C1A229C8AD7000601E8A /* NYCSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYCSchool.swift; sourceTree = "<group>"; };
+		0D42C1A829C8AD9300601E8A /* TestScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestScoreView.swift; sourceTree = "<group>"; };
+		0D42C1A929C8AD9300601E8A /* TestScoresViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestScoresViewModel.swift; sourceTree = "<group>"; };
+		0D42C1AB29C8AD9300601E8A /* SchoolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsView.swift; sourceTree = "<group>"; };
+		0D42C1AC29C8AD9300601E8A /* SchoolsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D1CEE8229C8CB070078AA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D42C16729C886B100601E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D42C17D29C8872400601E8A /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1CEE8629C8CB070078AA0C /* 20230320-FelipeGomezMontoya-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CEE8E29C8CB250078AA0C /* RealNetworkTests.swift */,
+				0D1CEE9029C8CB300078AA0C /* MockNetworkTests.swift */,
+				0D1CEE9229C8CB4E0078AA0C /* MockNetworkController.swift */,
+			);
+			path = "20230320-FelipeGomezMontoya-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		0D42C16129C886B000601E8A = {
+			isa = PBXGroup;
+			children = (
+				0D42C16C29C886B100601E8A /* 20230320-FelipeGomezMontoya-NYCSchools */,
+				0D1CEE8629C8CB070078AA0C /* 20230320-FelipeGomezMontoya-NYCSchoolsTests */,
+				0D42C16B29C886B100601E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D42C16B29C886B100601E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D42C16A29C886B100601E8A /* 20230320-FelipeGomezMontoya-NYCSchools.app */,
+				0D1CEE8529C8CB070078AA0C /* 20230320-FelipeGomezMontoya-NYCSchoolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D42C16C29C886B100601E8A /* 20230320-FelipeGomezMontoya-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				0D42C16D29C886B100601E8A /* _0230320_FelipeGomezMontoya_NYCSchoolsApp.swift */,
+				0D42C18029C8878100601E8A /* NavigationRootView.swift */,
+				0D42C18829C888F000601E8A /* MasterViewModel.swift */,
+				0D42C1AA29C8AD9300601E8A /* Schools */,
+				0D42C1A729C8AD9300601E8A /* Test Scores */,
+				0D42C19E29C8AD7000601E8A /* Networking */,
+				0D42C17129C886B300601E8A /* Assets.xcassets */,
+				0D42C17329C886B300601E8A /* Preview Content */,
+				0D42C19229C8930900601E8A /* LoadingView.swift */,
+				0D42C19429C8950200601E8A /* SchoolFormatter.swift */,
+				0D42C19629C89B4A00601E8A /* TestScoreFormatter.swift */,
+			);
+			path = "20230320-FelipeGomezMontoya-NYCSchools";
+			sourceTree = "<group>";
+		};
+		0D42C17329C886B300601E8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D42C17429C886B300601E8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D42C19E29C8AD7000601E8A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0D42C1A029C8AD7000601E8A /* NetworkController.swift */,
+				0D42C1A129C8AD7000601E8A /* RetryInterceptor.swift */,
+				0D42C19F29C8AD7000601E8A /* NYCTestScore.swift */,
+				0D42C1A229C8AD7000601E8A /* NYCSchool.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0D42C1A729C8AD9300601E8A /* Test Scores */ = {
+			isa = PBXGroup;
+			children = (
+				0D42C1A829C8AD9300601E8A /* TestScoreView.swift */,
+				0D42C1A929C8AD9300601E8A /* TestScoresViewModel.swift */,
+			);
+			name = "Test Scores";
+			path = "20230320-FelipeGomezMontoya-NYCSchools/Test Scores";
+			sourceTree = SOURCE_ROOT;
+		};
+		0D42C1AA29C8AD9300601E8A /* Schools */ = {
+			isa = PBXGroup;
+			children = (
+				0D42C1AB29C8AD9300601E8A /* SchoolsView.swift */,
+				0D42C1AC29C8AD9300601E8A /* SchoolsViewModel.swift */,
+			);
+			name = Schools;
+			path = "20230320-FelipeGomezMontoya-NYCSchools/Schools";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D1CEE8429C8CB070078AA0C /* 20230320-FelipeGomezMontoya-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1CEE8D29C8CB070078AA0C /* Build configuration list for PBXNativeTarget "20230320-FelipeGomezMontoya-NYCSchoolsTests" */;
+			buildPhases = (
+				0D1CEE8129C8CB070078AA0C /* Sources */,
+				0D1CEE8229C8CB070078AA0C /* Frameworks */,
+				0D1CEE8329C8CB070078AA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D1CEE8A29C8CB070078AA0C /* PBXTargetDependency */,
+			);
+			name = "20230320-FelipeGomezMontoya-NYCSchoolsTests";
+			productName = "20230320-FelipeGomezMontoya-NYCSchoolsTests";
+			productReference = 0D1CEE8529C8CB070078AA0C /* 20230320-FelipeGomezMontoya-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D42C16929C886B100601E8A /* 20230320-FelipeGomezMontoya-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D42C17829C886B300601E8A /* Build configuration list for PBXNativeTarget "20230320-FelipeGomezMontoya-NYCSchools" */;
+			buildPhases = (
+				0D42C16629C886B100601E8A /* Sources */,
+				0D42C16729C886B100601E8A /* Frameworks */,
+				0D42C16829C886B100601E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20230320-FelipeGomezMontoya-NYCSchools";
+			packageProductDependencies = (
+				0D42C17C29C8872400601E8A /* Alamofire */,
+			);
+			productName = "20230320-FelipeGomezMontoya-NYCSchools";
+			productReference = 0D42C16A29C886B100601E8A /* 20230320-FelipeGomezMontoya-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D42C16229C886B000601E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0D1CEE8429C8CB070078AA0C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0D42C16929C886B100601E8A;
+					};
+					0D42C16929C886B100601E8A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0D42C16529C886B000601E8A /* Build configuration list for PBXProject "20230320-FelipeGomezMontoya-NYCSchools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D42C16129C886B000601E8A;
+			packageReferences = (
+				0D42C17B29C8872400601E8A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 0D42C16B29C886B100601E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D42C16929C886B100601E8A /* 20230320-FelipeGomezMontoya-NYCSchools */,
+				0D1CEE8429C8CB070078AA0C /* 20230320-FelipeGomezMontoya-NYCSchoolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D1CEE8329C8CB070078AA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D42C16829C886B100601E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D42C17529C886B300601E8A /* Preview Assets.xcassets in Resources */,
+				0D42C17229C886B300601E8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D1CEE8129C8CB070078AA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1CEE9129C8CB300078AA0C /* MockNetworkTests.swift in Sources */,
+				0D1CEE8F29C8CB250078AA0C /* RealNetworkTests.swift in Sources */,
+				0D1CEE9329C8CB4E0078AA0C /* MockNetworkController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D42C16629C886B100601E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D42C19729C89B4A00601E8A /* TestScoreFormatter.swift in Sources */,
+				0D42C1A529C8AD7000601E8A /* RetryInterceptor.swift in Sources */,
+				0D42C1AF29C8AD9300601E8A /* SchoolsView.swift in Sources */,
+				0D42C1B029C8AD9300601E8A /* SchoolsViewModel.swift in Sources */,
+				0D42C18929C888F000601E8A /* MasterViewModel.swift in Sources */,
+				0D42C1A629C8AD7000601E8A /* NYCSchool.swift in Sources */,
+				0D42C1A429C8AD7000601E8A /* NetworkController.swift in Sources */,
+				0D42C1AD29C8AD9300601E8A /* TestScoreView.swift in Sources */,
+				0D42C1A329C8AD7000601E8A /* NYCTestScore.swift in Sources */,
+				0D42C1AE29C8AD9300601E8A /* TestScoresViewModel.swift in Sources */,
+				0D42C19329C8930900601E8A /* LoadingView.swift in Sources */,
+				0D42C19529C8950200601E8A /* SchoolFormatter.swift in Sources */,
+				0D42C18129C8878100601E8A /* NavigationRootView.swift in Sources */,
+				0D42C16E29C886B100601E8A /* _0230320_FelipeGomezMontoya_NYCSchoolsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D1CEE8A29C8CB070078AA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D42C16929C886B100601E8A /* 20230320-FelipeGomezMontoya-NYCSchools */;
+			targetProxy = 0D1CEE8929C8CB070078AA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D1CEE8B29C8CB070078AA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Felipe.Gomez.Montoya.nyc.schools.-0230320-FelipeGomezMontoya-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230320-FelipeGomezMontoya-NYCSchools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230320-FelipeGomezMontoya-NYCSchools";
+			};
+			name = Debug;
+		};
+		0D1CEE8C29C8CB070078AA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Felipe.Gomez.Montoya.nyc.schools.-0230320-FelipeGomezMontoya-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230320-FelipeGomezMontoya-NYCSchools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230320-FelipeGomezMontoya-NYCSchools";
+			};
+			name = Release;
+		};
+		0D42C17629C886B300601E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D42C17729C886B300601E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D42C17929C886B300601E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20230320-FelipeGomezMontoya-NYCSchools/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Felipe.Gomez.Montoya.nyc.schools.-0230320-FelipeGomezMontoya-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D42C17A29C886B300601E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20230320-FelipeGomezMontoya-NYCSchools/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Felipe.Gomez.Montoya.nyc.schools.-0230320-FelipeGomezMontoya-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D1CEE8D29C8CB070078AA0C /* Build configuration list for PBXNativeTarget "20230320-FelipeGomezMontoya-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1CEE8B29C8CB070078AA0C /* Debug */,
+				0D1CEE8C29C8CB070078AA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D42C16529C886B000601E8A /* Build configuration list for PBXProject "20230320-FelipeGomezMontoya-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D42C17629C886B300601E8A /* Debug */,
+				0D42C17729C886B300601E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D42C17829C886B300601E8A /* Build configuration list for PBXNativeTarget "20230320-FelipeGomezMontoya-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D42C17929C886B300601E8A /* Debug */,
+				0D42C17A29C886B300601E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D42C17B29C8872400601E8A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D42C17C29C8872400601E8A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D42C17B29C8872400601E8A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0D42C16229C886B000601E8A /* Project object */;
+}
